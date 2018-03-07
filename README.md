@@ -22,6 +22,8 @@ Available on [PyPi](https://pypi.org/project/tempstore/)
 pip install tempstore
 ```
 
+# Usage
+
 ## tempstore.TempStore(name=None)
 
 Create a new TempStore. 
