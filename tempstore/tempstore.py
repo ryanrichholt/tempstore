@@ -54,8 +54,9 @@ class TempStore(object):
         :return: None
         """
         if self.name is not None:
-            os.makedirs(path, exist_ok=exist_ok)
             path = os.path.join(path, self.name)
+
+        os.makedirs(path, exist_ok=exist_ok)
 
         for name, obj in self.objs.items():
             src = obj.name
