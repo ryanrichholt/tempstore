@@ -14,6 +14,14 @@ Example:
 >>>
 ```
 
+# Install
+
+Available on [PyPi](https://pypi.org/project/tempstore/)
+
+```
+pip install tempstore
+```
+
 ## tempstore.TempStore(name=None)
 
 Create a new TempStore. 
