@@ -10,7 +10,7 @@ def read(fname):
 
 setup(
     name="tempstore",
-    version="1.0.1",
+    version="1.0.2",
     author="Ryan Richholt",
     description="A simple container for handling multiple tempfiles",
     long_description=read('README.rst'),
