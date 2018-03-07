@@ -10,10 +10,10 @@ def read(fname):
 
 setup(
     name="tempstore",
-    version="1.0.0",
+    version="1.0.1",
     author="Ryan Richholt",
     description="A simple container for handling multiple tempfiles",
-    long_description=read('README.md'),
+    long_description=read('README.rst'),
     keywords="temp tempfile tempdir",
     packages=find_packages(),
     classifiers=[
