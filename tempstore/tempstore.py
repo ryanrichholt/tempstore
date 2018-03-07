@@ -38,8 +38,12 @@ class TempStore(object):
         :param name: Name of the file to create
         :return: str
         """
+        if name in self.objs:
+            raise ValueError('{} already exists'.format(name, self))
+
         fp = tempfile.NamedTemporaryFile(dir=self.dir.name)
         self.objs[name] = fp
+
         return fp.name
 
     def copy(self, path, exist_ok=False):
